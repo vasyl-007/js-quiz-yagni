@@ -54,9 +54,17 @@
 // =================== no name =====================
 // let a = typeof constructor == "object";     // false
 // let b = typeof constructor == "function";   // true
-// let c = typeof constructor == "undefined";  // false  
+// let c = typeof constructor == "undefined";  // false
 // console.log(a, b, c);
 
-// =================== no name =====================
+// =================== no name ! =====================
+// var a = 0.1;
+// var b = 0.2;
+// var c = 10;
+// var d = (a + b) * c === a * c + b * c ? 1 : 0;
+
+// console.log(d);
+// console.log((0.1 + 0.2) * 10);      // 3.0000000000000004
+// console.log(0.1 * 10 + 0.2 * 10);   // 3
 
 // =================== no name =====================
