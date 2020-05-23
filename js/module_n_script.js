@@ -260,7 +260,17 @@
 
 // console.log(something);     // {pig: true, cow: true, dog: true, cat: true}
 
-// =================== no name =====================
+// =================== no name !!!! push , pop =====================
+// const animals = ["pig", "cow", "dog", "cat"];
+
+// console.log(animals.push("horse")); // 5  - push returns a lenght of the array
+// console.log(animals.pop()); // "horse"  - pop returns the deleted element
+// console.log(animals.slice(0, 2)); //  ["pig", "cow"] - slice returns copied elements from array
+// console.log(animals);   // ["pig", "cow", "dog", "cat"]    
+
+// console.log(animals.splice(0, 2)); //  ["pig", "cow"] - splice returns copied elements from array && changes the array
+// console.log(animals);   // ["dog", "cat"]    
+
 // =================== no name =====================
 // =================== no name =====================
 // =================== no name =====================
