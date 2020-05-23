@@ -249,7 +249,17 @@
 // const worker = new Worker("street", "Bob");
 // Worker.getStatus();
 
-// =================== no name =====================
+// =================== no name !!!! reduce =====================
+
+// const animals = ["pig", "cow", "dog", "cat"];
+
+// const something = animals.reduce((acc, animal) => {
+//   acc[animal] = true;
+//   return acc;
+// }, {});
+
+// console.log(something);     // {pig: true, cow: true, dog: true, cat: true}
+
 // =================== no name =====================
 // =================== no name =====================
 // =================== no name =====================
