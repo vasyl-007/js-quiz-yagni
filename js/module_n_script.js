@@ -96,7 +96,23 @@
 // }, 2000);           // undefined
 
 // =================== no name =====================
-// =================== no name =====================
+// let a = "my";
+// let b = `hello${a}world`;
+// let c = "hello" + a + "world";
+// console.log(b);         // hellomyworld
+// console.log(c);         // hellomyworld
+// console.log(b === c);   // true
+
+// =================== no name IIFE !!!!!! mega =====================
+// function abc(a) {
+//   return (
+//     (function (y) {
+//       return y + 1;
+//     })(++a) + a
+//   );
+// }
+// console.log(abc(2));        // 7
+
 // =================== no name =====================
 // =================== no name =====================
 // =================== no name =====================
