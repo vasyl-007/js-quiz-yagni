@@ -180,9 +180,52 @@
 // ({ a, b } = { a: 1, b: "2" });
 // console.log(1 + a + b);         // 22;
 
+// =================== no name !!! =====================
+// const a = {};
+// console.log(String(a));     // [object Object]
+
 // =================== no name =====================
+// const obj = {
+//   name: "Bob",
+// };
+
+// Object.defineProperty(obj, "profession", {
+//   enumerable: false,
+//   writable: false,
+//   value: "QA",
+// });
+
+// obj.age = 40;
+// // obj.profession = "engineer";
+
+// console.log(obj); // TypeError: Cannot assign to read only property 'profession' of object '#<Object>'
+
 // =================== no name =====================
-// =================== no name =====================
+// const obj = {
+//   name: "Bob",
+// };
+
+// Object.defineProperty(obj, "profession", {
+//   enumerable: false,
+//   writable: false,
+//   value: "QA",
+// });
+
+// obj.age = 40;
+
+// console.log(obj); // {name: "Bob", age: 40, profession: "QA"}
+
+// =================== no name !!! =====================
+// const func = () => "here";
+
+// const a = !!"    ";
+// const b = 1 && 2 && 3;
+// const c = "" && false && NaN;
+// const d = false || 2 || 3;
+// const e = 1 && func && func();
+
+// console.log(a, b, c, d, e);     // true 3 "" 2 "here"
+
 // =================== no name =====================
 // =================== no name =====================
 // =================== no name =====================
