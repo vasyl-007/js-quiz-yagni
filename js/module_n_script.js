@@ -272,6 +272,14 @@
 // console.log(animals);   // ["dog", "cat"]    
 
 // =================== no name =====================
+// const animals = ["pig", "cow", "dog", "cat"];
+
+// console.log(animals.push("horse")); // 5  - push returns a lenght of the array
+// console.log(animals.unshift("duck")); // 6  - unshift returns a lenght of the array
+
+// console.log(animals.pop()); // horse
+// console.log(animals.shift()); // duck
+
 // =================== no name =====================
 // =================== no name =====================
 // =================== no name =====================
