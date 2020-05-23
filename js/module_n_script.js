@@ -226,7 +226,29 @@
 
 // console.log(a, b, c, d, e);     // true 3 "" 2 "here"
 
-// =================== no name =====================
+// =================== no name !!!!!! =====================
+// class Worker {
+//   constructor(home, name) {
+//     this.home = home;        // на экземпляр идет
+//     this.name = name;        // на экземпляр идет
+//   }
+
+//   goHome() {
+//     this.wentHome = true;   // на прототип
+//   }
+// }
+
+// // const worker1 = new Worker("Kyiv", "Petr");
+// Worker.home = "Kyiv";
+// // console.log(Worker)
+// Worker.getStatus = function () {
+//   console.log(Worker.home);         // Kyiv
+//   console.log(this.name);           // Worker
+// };
+
+// const worker = new Worker("street", "Bob");
+// Worker.getStatus();
+
 // =================== no name =====================
 // =================== no name =====================
 // =================== no name =====================
