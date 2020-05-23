@@ -73,16 +73,28 @@
 // console.log(i);     // 25
 
 // =================== no name !!! =====================
-function foo(a) {
-  var b = 5;
-  function bar(a) {
-    return b + a;
-  }
-  return bar(b++);
-}
-console.log(foo(0));        // 11
+// function foo(a) {
+//   var b = 5;
+//   function bar(a) {
+//     return b + a;
+//   }
+//   return bar(b++);
+// }
+// console.log(foo(0));        // 11
 
-// =================== no name =====================
+// =================== no name !!! async =====================
+// function wait(value, timespan) {
+//   setTimeout(function () {
+//     return value;
+//   }, timespan);
+// }
+// var n = 8;
+// n = wait(5, 1000);
+// // console.log(n)
+// setTimeout(function () {
+//   console.log(n);
+// }, 2000);           // undefined
+
 // =================== no name =====================
 // =================== no name =====================
 // =================== no name =====================
