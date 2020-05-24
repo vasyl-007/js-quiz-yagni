@@ -558,7 +558,52 @@
 // arr[2] = arr.length;
 // console.log(arr[0] + (arr[2] % arr[1]));    // 4
 
+// =================== no name !! strange =====================
+// let a = { x: 20, y: 45, z: 60 }.x;       // свойство х обращается с этому же объекту
+// let b = { a: 10 }.a + a;
+// console.log(b);     // 30
+
+// =================== no name =====================
+// const a = 1;
+// const b = 3;
+// console.log(a / b);
+// console.log((a / b).toFixed(2));
+
+// const result = 300;
+// console.log(result.length);     // undefined
+
+// const a = (1, 2, 3);
+// console.log(a);     // 3
+
+// var x = 5;
+// var y = x++;
+// console.log(x++ - y--); // 1
+// console.log(++x - ++y); // 1
+
+// =================== no name =====================
+// const str = "hello world";
+// const words = str.split(" ");
+// const obj = {};
+// for (let i = 0; i < words.length; i++) {
+//   obj[words[i]] = words[i];
+// }
+// console.log(obj);   // {hello: "hello", world: "world"}
+
+// =================== no name =====================
+// class myClass {}
+
+// var obj1 = new myClass();
+
+// var obj = myClass(); // Class constructor myClass cannot be invoked without 'new'
+
+// =================== no name =====================
+// var x = 12;
+// console.log("x" + (12 % 4));    // x0
+
 // =================== no name =====================
 
 
+// =================== no name =====================
+// =================== no name =====================
+// =================== no name =====================
 // =================== no name =====================
