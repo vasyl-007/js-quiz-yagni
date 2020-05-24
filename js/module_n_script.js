@@ -464,15 +464,93 @@
 // } while (x < 9);
 // console.log(y);     // 5
 
+// =================== no name !!! =====================
+// var str = "Solo!!learn!";
+// str = str.split("!");
+
+// // console.log(str);   // ["Solo", "", "learn", ""]
+
+// let output = (...str) => {
+//   console.log(str[2] + str.length);     // learn4
+// };
+// output(...str);
+
+// =================== no name !!! =====================
+// var str = "Solo!!learn!";
+// str = str.split("!");
+
+// let output = (str) => {
+//   console.log(str[2] + str.length);     // learn4
+// };
+// output(str);
+
 // =================== no name =====================
+// let min = Math.min(...[5, 8]);
+// let max = Math.max(...[1, 4, 2]);
+
+// console.log(min + max);     // 9
+
 // =================== no name =====================
+// const value = 0;
+// if (value) {
+//   console.log(true);
+// } else {
+//   console.log(false);   // false
+// }
+
 // =================== no name =====================
+// const value = 0;
+// if (value) {
+//   return true;
+// } else {
+//   return false; // SyntaxError: Illegal return statement
+// }
+// нельзя использовать return в конструкциях if
+
+// =================== no name !!! =====================
+// var i = 0;
+// var j = 0;
+// var count = 0;
+// for (; i < 3; i++) {
+//   for (; j < 3; j++) {
+//     count++;
+//   }
+// }
+// console.log(count);     // 3
+
 // =================== no name =====================
+// var count = 0;
+// for (let i = 0; i < 3; i++) {
+//   for (let j = 0; j < 3; j++) {
+//     count++;
+//   }
+// }
+// console.log(count);     // 9
+
+// =================== no name !!! =====================
+// function addBinary(a, b) {
+//   var sum = a + b;
+//   var res = "";
+//   while (sum > 0) {
+//     res = (sum % 2) + res;          // преобразовуется в строку
+//     sum = Math.floor(sum / 2);
+//   }
+//   return res;
+// }
+// console.log(addBinary(1, 2));   // 11
+
 // =================== no name =====================
-// =================== no name =====================
-// =================== no name =====================
-// =================== no name =====================
-// =================== no name =====================
+// const arr = [1, 4, 10, 20, 3];
+// const max1 = console.log(Math.max(...arr));
+// const max2 = console.log(Math.max.apply(null, arr));
+
+// =================== no name !! =====================
+// for (let i = 0; i < 5; i++) {
+//   i += i;
+//   console.log(i);   // 0 4
+//   i++;
+// }
+
 // =================== no name =====================
 // =================== no name =====================
 // =================== no name =====================
