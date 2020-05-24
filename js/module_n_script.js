@@ -358,6 +358,16 @@
 // console.log(j);     // 11
 
 // =================== no name =====================
+// const arrOne = [1, 2, 3, 4, 5];
+// const arrTwo = new Array();
+// // const arrTwo = [];       // the same
+
+// for (let i = 0; i < arrOne.length; i++) {
+//   arrTwo[i] = arrOne[i] * 2;
+// }
+
+// console.log(arrTwo);
+
 // =================== no name =====================
 // =================== no name =====================
 // =================== no name =====================
