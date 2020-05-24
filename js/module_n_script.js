@@ -408,6 +408,22 @@
 // console.log(result);    // 1
 
 // =================== no name =====================
+// var a = null;
+// var b = 5;
+// var c = a + b;
+// console.log(c);     // 5
+
 // =================== no name =====================
+// class enemy {
+//   constructor(height, strength) {
+//     this.height = height;
+//     this.strength = strength;
+//   }
+// }
+
+// let chris = new enemy(100, 50);
+// let { prop1, prop2 } = chris;
+// console.log(prop1 + prop2);     // NaN
+
 // =================== no name =====================
 // =================== no name =====================
