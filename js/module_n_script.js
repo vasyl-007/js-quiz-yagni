@@ -331,8 +331,14 @@
 // =================== no name =====================
 // console.log(false === (false && false));   // true
 
-// =================== no name =====================
+// =================== no name !!! =====================
+// console.log(NaN == NaN); // false
+// console.log(NaN === NaN); // false
 
+// const arr = [1, 2, 3, NaN, 4];
+// console.log(arr.includes(NaN));     // true     paradox
+// console.log(arr.indexOf(NaN));     // -1
+// console.log(arr.length);     // 5
 
 // =================== no name =====================
 // =================== no name =====================
