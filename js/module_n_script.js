@@ -266,10 +266,10 @@
 // console.log(animals.push("horse")); // 5  - push returns a lenght of the array
 // console.log(animals.pop()); // "horse"  - pop returns the deleted element
 // console.log(animals.slice(0, 2)); //  ["pig", "cow"] - slice returns copied elements from array
-// console.log(animals);   // ["pig", "cow", "dog", "cat"]    
+// console.log(animals);   // ["pig", "cow", "dog", "cat"]
 
 // console.log(animals.splice(0, 2)); //  ["pig", "cow"] - splice returns copied elements from array && changes the array
-// console.log(animals);   // ["dog", "cat"]    
+// console.log(animals);   // ["dog", "cat"]
 
 // =================== no name =====================
 // const animals = ["pig", "cow", "dog", "cat"];
@@ -281,7 +281,22 @@
 // console.log(animals.shift()); // duck
 
 // =================== no name =====================
+
+// console.log(!!1 === Boolean(1));  // true
 // =================== no name =====================
+// var a = function (x) {
+//   if (x > 0) {
+//     return true;
+//   } else return false;
+// };
+
+// var b = function (y) {
+//   if (y) return "ok";
+//   else return "no";
+// };
+
+// console.log(b(a(-3)));      // no
+
 // =================== no name =====================
 // =================== no name =====================
 // =================== no name =====================
