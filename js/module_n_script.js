@@ -369,9 +369,44 @@
 // console.log(arrTwo);
 
 // =================== no name =====================
+// [4].filter(function (x) {
+//   console.log(x > 3);
+// })[0];      // true
+
 // =================== no name =====================
+// console.log(!!0 === Boolean(0));    // true
+// console.log(!!1 === Boolean(1));    // true
+// console.log(!!Boolean);    // true
+// console.log(!!!Boolean);    // false
+// console.log(typeof !!!Boolean);    // boolean
+// console.log(typeof !!Boolean);    // boolean
+
+//  !!1 - this is Boolean of 1
+//  !!10 - this is Boolean of 10
+//  !!0 - this is Boolean of 0
+
+// console.log(typeof !!1);      // boolean
+// console.log(typeof !!0);      // boolean
+// console.log(typeof !!1 === !!0);    // false
+
+// =================== no name !!!! =====================
+// var size = 4;
+// for (let i = 1; i < size; i++) {
+//   for (let k = 0; k < size - 1; k++) {
+//     console.log(2);
+//   }
+//   for (let k = 0; k < 1; k++) {
+//     console.log(1);
+//   }
+//   console.log("<br>");
+// }
+
 // =================== no name =====================
-// =================== no name =====================
+// var arr = [-1, 0, 1, 2, 3, 4, 5, 6, 7, 8];
+// var index = arr.indexOf(9);
+// var result = index < 0 ? 1 : 0;
+// console.log(result);    // 1
+
 // =================== no name =====================
 // =================== no name =====================
 // =================== no name =====================
