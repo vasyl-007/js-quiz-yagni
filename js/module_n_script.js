@@ -770,8 +770,24 @@
 // var a = [3, 5, 2];
 // console.log(f(a));      // [5, 2]
 
+// =================== no name !!! =====================
+// for (let i = 0; i < 100; i++) {
+//   if (i % 20 == i - 20) console.log(i + ",");   // 20, 21, ... 39
+// }
+
 // =================== no name =====================
-// =================== no name =====================
+// const a = Infinity;
+// console.log(100 / Infinity); // 0
+// console.log(-100 / Infinity); // -0
+// console.log(100 / -Infinity); // -0
+// console.log(-100 / -Infinity); // 0
+// console.log(Infinity / Infinity); // NaN
+// console.log(-Infinity / Infinity); // NaN
+// console.log(-Infinity / 0); // - Infinity
+// console.log(Infinity / 0); // Infinity
+// console.log(100 / 0); // Infinity
+// console.log(0 / 0); // NaN
+
 // =================== no name =====================
 // =================== no name =====================
 // =================== no name =====================
