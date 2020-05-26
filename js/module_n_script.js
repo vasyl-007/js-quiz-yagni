@@ -718,10 +718,43 @@
 // var y = Lang.push("kotlin");
 // console.log(y + x); // 5python
 
+// =================== no name !!! cool =====================
+// var input = 407;
+// var res = 0;
+// for (let i = input; i > 0; i = Math.floor(i / 10)) {
+//   res = res * 10 + (i % 10);
+// }
+// console.log(res);   // 704
+
 // =================== no name =====================
+// myBlock: {
+//   var a = 0;
+//   break myBlock;
+//   a = 1;
+// }
+// console.log(a); // 0
+
 // =================== no name =====================
-// =================== no name =====================
-// =================== no name =====================
+// Object.freeze(Object);
+// var obj = {
+//   property: "one",
+// };
+// obj.property = "two";
+// console.log(obj); // {property: "two"}
+
+// =================== no name !!! =====================
+// function addBin(a, b) {
+//   var sum = a + b;
+//   var res = "";
+//   while (sum > 0) {
+//     res = (sum % 2) + res;
+//     sum = Math.floor(sum / 2);
+//   }
+//   return res;
+// }
+// console.log(addBin(2, 5));  // 111
+// console.log(addBin(1, 5));  // 110
+
 // =================== no name =====================
 // =================== no name =====================
 // =================== no name =====================
