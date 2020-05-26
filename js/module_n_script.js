@@ -789,7 +789,29 @@
 // console.log(0 / 0); // NaN
 
 // =================== no name =====================
-// =================== no name =====================
+// var str = "hello ";
+// var res = str.valueOf();
+// console.log(res); // hello
+// console.log(res.length); // 6
+
+// var str1 = "world";
+// var res1 = str1.valueOf();
+// console.log(res.concat(res1)); // hello world
+// console.log(res + res1);        // hello world
+
+// =================== no name !!!! strange =====================
+// var a = 1 / -Infinity + 5 % Infinity;
+// console.log(a);     // 5
+
+// console.log(5 % Infinity);  // 5
+
+// console.log(1 / -Infinity);  // -0
+// console.log(1 / Infinity);   // 0
+// console.log(-1 / Infinity);   // -0
+
+// console.log(Infinity / -0);  // -Infinity
+// console.log(Infinity / 0);  // Infinity
+
 // =================== no name =====================
 // =================== no name =====================
 // =================== no name =====================
