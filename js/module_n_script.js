@@ -673,6 +673,15 @@
 // console.log(" " === false);   // false
 
 // =================== no name =====================
+// var a = !undefined;
+// var b = !NaN;
+// var c = !null;
+// console.log(a); // true
+// console.log(b); // true
+// console.log(c); // true
+
+// console.log(a + b + c); // 3
+
 // =================== no name =====================
 // =================== no name =====================
 // =================== no name =====================
