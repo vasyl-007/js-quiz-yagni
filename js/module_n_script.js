@@ -633,9 +633,29 @@
 
 // =================== no name =====================
 // for (let i = 0; i < 100; i++) {
-//   if (i % 10 == i) console.log(i + "");     // 0 1 2 3 4 5 6 7 8 9 
+//   if (i % 10 == i) console.log(i + "");     // 0 1 2 3 4 5 6 7 8 9
+// }
+
+// =================== no name !!! Number =====================
+// const arr = Number(200, 400, 100);
+// // console.log(arr);   // 200
+
+// if (arr[0] == 200 || arr[1] == 200) {
+//   console.log(arr.push(2.0, 200));
+// } else if (arr == 200) {
+//   console.log(arr.toString(arr.length));    // 200
+// } else {
+//   console.log(arr.push(200, 2.0));
 // }
 
 // =================== no name =====================
-// =================== no name =====================
+// const arr = 200;
+// console.log(arr.length); // undefined
+
+// const arr2 = Number(200);
+// console.log(arr2.length);      // undefined   
+
+// const arr3 = Number(200);
+// console.log(arr3.toString(arr3.length));    // 200
+
 // =================== no name =====================
