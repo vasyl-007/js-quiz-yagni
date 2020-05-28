@@ -906,6 +906,11 @@
 // console.log(foo.prop);  // TypeError (cannot add property - object is not extensible)
 
 // =================== no name =====================
+// (function(x){
+//     int x;
+//     return x;
+// })(1);      // SyntaxError (unexpected indentifier)
+
 // =================== no name =====================
 // =================== no name =====================
 // =================== no name =====================
