@@ -886,10 +886,25 @@
 // =================== no name =====================
 // let sum = 0.1 + 0.2;
 // console.log(+sum.toFixed(2));   // 0.3 as Number (unar +)
-// console.log(sum.toFixed(2));   // 0.30 as String   
+// console.log(sum.toFixed(2));   // 0.30 as String
 
 // =================== no name =====================
+// // let arr;     // otherwise infinite loop
+
+// const newArr = ["str", "false", "true"];
+// function join() {
+//   for (let i = 2; (arr = newArr.length); i <= 2) {
+//     console.log(newArr.reverse(arr)[i]);
+//   }
+//   i++;
+// }
+// join();     // RefErr "arr" is not defined
+
 // =================== no name =====================
+// const foo = Object.freeze({});
+// foo.prop = 123;
+// console.log(foo.prop);  // TypeError (cannot add property - object is not extensible)
+
 // =================== no name =====================
 // =================== no name =====================
 // =================== no name =====================
