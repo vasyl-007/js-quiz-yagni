@@ -965,6 +965,18 @@
 // console.log(b);     //12
 
 // =================== no name =====================
+// let p = [5, 4, 3, 2, 1, 6, 6, 9];
+// function first(arr) {
+//   for (let i = 0; i < arr.length; i++) {
+//     if (typeof arr[i] === "number" && arr[i] % 2 === 0) {
+//       //   console.log(arr[i]);
+//       return arr[i];
+//     }
+//   }
+//   return null;
+// }
+// console.log(first(p)); // 4
+
 // =================== no name =====================
 // =================== no name =====================
 // =================== no name =====================
