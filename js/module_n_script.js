@@ -924,7 +924,16 @@
 // console.log(sum);   // 4
 
 // =================== no name =====================
+// const a = Math.exp(16);
+// const b = Math.abc(16);     // Math.abc is not a function
+// console.log("a: ", a);
+// console.log("b: ", b);
+
 // =================== no name =====================
+// console.log(7 > 100 < 5);   // true
+// console.log(7 > 100 > 5);   // false
+// console.log(7 > 100 > 5 == true);   // false
+
 // =================== no name =====================
 // =================== no name =====================
 // =================== no name =====================
