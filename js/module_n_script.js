@@ -1062,9 +1062,36 @@
 
 // console.log(x);     // 1.3333333333333326
 
-// =================== no name =====================
-// =================== no name =====================
-// =================== no name =====================
+// =================== no name !!! =====================
+// Array.prototype.exe = () => {
+//   return Math.max(this);
+// };
+// let arr = [3, 9, 6];
+// console.log(arr.exe());     // NaN
+
+// =================== no name !!!!! =====================
+// class Person {
+//   constructor(name, age) {
+//     this._name = name;          // идет на экземпляр класса
+//     this._age = age;
+//   }
+//   get name() {                  // идет на прототип
+//     return this._name;
+//   }
+//   get smth(){}                  // идет на прототип
+// }
+// let john = new Person("jhonny", 15);
+// console.log(john.name);                 // jhonny
+
+// console.log(john)
+
+// =================== no name !!!! =====================
+// var arr = [3, 6, 1, 5];
+// for (var i = 0; i < 3; i += 2) {
+//   arr[0] += arr[i];
+// }
+// console.log(arr[0]);    // 7
+
 // =================== no name =====================
 // =================== no name =====================
 // =================== no name =====================
