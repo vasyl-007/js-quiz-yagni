@@ -1010,9 +1010,31 @@
 // console.log("510" < "511");    // true
 
 // =================== no name =====================
+// let foo = new Set([0, "3", 2, 4, 3]);
+// console.log(foo.size);      // 5
+
 // =================== no name =====================
+// var x = 0;
+// for (var i = 0; i < 10; i++) {
+//   for (var j = 0; j <= 2; j++) {
+//     ++x;
+//   }
+// }
+// console.log(x);     // 30
+
+// =================== no name !!!! =====================
+// var y = "JaVaScRiPt";
+// console.log(y.charAt(0).toUpperCase() + y.substr(1).toLowerCase()); // Javascript
+
+// console.log(y.charAt(0));   // J
+// console.log(y.substr(1));   // aVaScRiPt
+// console.log(y.substr(1).toLowerCase());   // avascript
+
+// method substring() == slice()
+
 // =================== no name =====================
-// =================== no name =====================
+
+
 // =================== no name =====================
 // =================== no name =====================
 // =================== no name =====================
