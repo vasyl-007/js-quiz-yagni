@@ -1033,9 +1033,35 @@
 // method substring() == slice()
 
 // =================== no name =====================
+// const someValue = 0;
 
+// console.log(!someValue);
+// console.log(someValue === false);
 
 // =================== no name =====================
+// var f = [
+//   function (a, b) {
+//     return a + b;
+//   },
+//   function (a, b) {
+//     return a - b;
+//   },
+//   function (a, b) {
+//     return a * b;
+//   },
+//   function (a, b) {
+//     return a / b;
+//   },
+//   function (a, b) {
+//     return a % b;
+//   },
+// ];
+// var x = f[0](4, 6);
+// var x = f[3](x, 6);
+// var x = f[4](18, x);
+
+// console.log(x);     // 1.3333333333333326
+
 // =================== no name =====================
 // =================== no name =====================
 // =================== no name =====================
