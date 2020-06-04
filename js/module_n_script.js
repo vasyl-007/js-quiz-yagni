@@ -1133,17 +1133,36 @@
 // console.log(a.try2);    // 4
 
 // =================== no name =====================
-function bin(num) {
-  var res = "";
-  while (num > 0) {
-    res = (num % 2) + res;
-    num = Math.floor(num / 2);
-  }
-  return res;
-}
-console.log(bin(6));
+// function bin(num) {
+//   var res = "";
+//   while (num > 0) {
+//     res = (num % 2) + res;
+//     num = Math.floor(num / 2);
+//   }
+//   return res;
+// }
+// console.log(bin(6));    // 110
 
-// =================== no name =====================
-// =================== no name =====================
+// =================== no name !!! tricky =====================
+// (function () {
+//   var i = j = 6;
+// })();
+// console.log(j); // 6
+
+// =================== no name !!! =====================
+// function f(a) {
+//   var arr = [];
+//   var i = 0;
+//   while (i < a.length) {
+//     if (a[i] % 2 !== 0) {
+//       arr.push(a[i]);
+//     }
+//     i++;
+//   }
+//   return arr;
+// }
+// var a = [1, 4, 3, 5];
+// console.log(f(a)); // [1,3,5]
+
 // =================== no name =====================
 // =================== no name =====================
