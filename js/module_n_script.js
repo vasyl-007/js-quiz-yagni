@@ -1164,5 +1164,19 @@
 // var a = [1, 4, 3, 5];
 // console.log(f(a)); // [1,3,5]
 
-// =================== no name =====================
+// =================== no name !!!!!!! cool =====================
+// class Base {
+//   constructor(n) {
+//     this.num = ++n;
+//   }
+// }
+// class Derived extends Base {
+//   constructor(n) {
+//     super(n++);
+//     this.num = ++n;
+//   }
+// }
+// let obj = new Derived(7);
+// console.log(obj.num);       // 9
+
 // =================== no name =====================
