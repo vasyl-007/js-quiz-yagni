@@ -1240,6 +1240,14 @@
 // console.log(y);     // 3
 
 // =================== no name =====================
+const str = "hello world";
+const words = str.split(" ");
+const obj = {};
+for (i = 0; i < words.length; i++) {
+  obj[words[i]] = words[i];
+}
+console.log(obj);
+
 // =================== no name =====================
 // =================== no name =====================
 // =================== no name =====================
