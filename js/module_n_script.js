@@ -1213,6 +1213,22 @@
 // console.log(calc2(i)); // 9
 
 // =================== no name =====================
+class Animal {
+  constructor(name) {
+    this.name = name;
+  }
+  speak() {
+    console.log(this.name + "makes a noise");
+  }
+}
+class Lion extends Animal {
+  speak() {
+    console.log(this.name + " roars");
+  }
+}
+let lion = new Lion("King");
+lion.speak();   // King roars
+
 // =================== no name =====================
 // =================== no name =====================
 // =================== no name =====================
