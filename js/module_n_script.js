@@ -1273,7 +1273,22 @@
 // const abc = new StaticMethods();
 // console.log("abc", abc);
 
-// =================== no name =====================
+// =================== no name !!!  =====================
+// var x = 3;
+// var one = {
+//   x: 2,
+//   two: {
+//     x: 1,
+//     three: function () {
+//       return this.x;
+//     },
+//   },
+// };
+// var go = one.two.three;
+// // console.log(one.two.three() + "" + go());   //  13
+
+// console.log(one.two.three());   //  1
+
 // =================== no name =====================
 // =================== no name =====================
 // =================== no name =====================
