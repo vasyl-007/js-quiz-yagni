@@ -1240,15 +1240,24 @@
 // console.log(y);     // 3
 
 // =================== no name =====================
-const str = "hello world";
-const words = str.split(" ");
-const obj = {};
-for (i = 0; i < words.length; i++) {
-  obj[words[i]] = words[i];
-}
-console.log(obj);
+// const str = "hello world";
+// const words = str.split(" ");
+// const obj = {};
+// for (let i = 0; i < words.length; i++) {
+//   obj[words[i]] = words[i];
+// }
+// console.log(obj);     // {hello: "hello", world: "world"}
 
 // =================== no name =====================
+// var y = 0;
+// for (var x = 1; x < 5; x++) {
+//   if (x === 3) {
+//     x = 5;
+//   }
+//   y++;
+// }
+// console.log(y);     // 3
+
 // =================== no name =====================
 // =================== no name =====================
 // =================== no name =====================
