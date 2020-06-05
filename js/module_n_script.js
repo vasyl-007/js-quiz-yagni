@@ -1309,6 +1309,17 @@
 // console.log(c1);    // 20
 
 // =================== no name =====================
+// class StaticMethods {
+//   static methodOne() {
+//     return "world";
+//   }
+//   static methodTwo() {
+//     return this.methodOne() + "hello";
+//   }
+// }
+// let a = StaticMethods.methodTwo();
+// console.log(a);         // worldhello
+
 // =================== no name =====================
 // =================== no name =====================
 // =================== no name =====================
