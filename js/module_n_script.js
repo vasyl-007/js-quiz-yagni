@@ -1258,7 +1258,21 @@
 // }
 // console.log(y);     // 3
 
-// =================== no name =====================
+// =================== no name ! =====================
+// class StaticMethods {
+//   static methodOne() {
+//     return "world";
+//   }
+//   static methodTwo() {
+//     return this.methodOne() + "hello";
+//   }
+// }
+// let a = StaticMethods.methodTwo();
+// console.log(a); // worldhello
+
+// const abc = new StaticMethods();
+// console.log("abc", abc);
+
 // =================== no name =====================
 // =================== no name =====================
 // =================== no name =====================
