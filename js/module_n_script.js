@@ -1296,8 +1296,17 @@
 // }
 // console.log(i);   // 12
 
-// =================== no name =====================
+// =================== no name !! =====================
+// var x = [typeof x, typeof y][1];
+// console.log(typeof x); // string
 
+// const a = 10;
+// const b = 20;
+// const c = [typeof a, typeof b][1];
+// console.log(c);     // number
+
+// const c1 = [a, b][1];
+// console.log(c1);    // 20
 
 // =================== no name =====================
 // =================== no name =====================
