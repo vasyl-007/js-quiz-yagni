@@ -1393,7 +1393,22 @@
 // console.log(b); // [0, 2]
 
 // =================== no name =====================
-// =================== no name =====================
+// class StaticMethods {
+//   static methodOne() {
+//     return "world";
+//   }
+//   static methodTwo() {
+//     return this.methodOne() + "hello";
+//   }
+// }
+// let a = StaticMethods.methodTwo();
+// console.log(a); // worldhello
+
+// =================== no name strange =====================
+// const foo = Object.freeze({});
+// foo.prop = 123;
+// console.log(foo.prop);    // TypeError
+
 // =================== no name =====================
 // =================== no name =====================
 // =================== no name =====================
