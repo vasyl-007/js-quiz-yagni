@@ -1459,7 +1459,12 @@
 // console.log(y.unshift(10)); // 6   new length of the array
 // console.log(y.shift()); // 10   deleted one element which value is 10
 
-// =================== no name =====================
+// =================== no name ! =====================
+// let num = new Map();
+// num.set("1", "one").set("2", "two");
+// console.log(num.has("one")); // false
+// console.log(num.has("1")); // true
+
 // =================== no name =====================
 // =================== no name =====================
 // =================== no name =====================
