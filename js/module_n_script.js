@@ -1409,7 +1409,12 @@
 // foo.prop = 123;
 // console.log(foo.prop);    // TypeError
 
-// =================== no name =====================
+// =================== no name strange =====================
+// var arr = [5,6,8];
+// var str = (string)arr;
+// var bool = (boolean)str;
+// console.log(bool);    // SyntaxError
+
 // =================== no name =====================
 // =================== no name =====================
 // =================== no name =====================
