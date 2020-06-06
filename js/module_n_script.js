@@ -1444,6 +1444,21 @@
 // console.log(NaN == NaN);  // false
 
 // =================== no name =====================
+// const abc = [1, 2, 3, 4, 5];
+// console.log(abc.slice(3)); // [4, 5]
+
+// const x = [1, 2, 3, 4, 5];
+// const pushMethod = x.push(3);
+// console.log(pushMethod); // 6     new length of the array
+
+// const a = [1, 2, 3, 4, 5];
+// console.log(a.splice(3)); // [4, 5]
+// console.log(a); // [1, 2, 3]
+
+// const y = [1, 2, 3, 4, 5];
+// console.log(y.unshift(10)); // 6   new length of the array
+// console.log(y.shift()); // 10   deleted one element which value is 10
+
 // =================== no name =====================
 // =================== no name =====================
 // =================== no name =====================
