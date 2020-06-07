@@ -1465,7 +1465,64 @@
 // console.log(num.has("one")); // false
 // console.log(num.has("1")); // true
 
-// =================== no name =====================
+// =================== no name !!! need to refresh =====================
+// function fetchPokemon(pokemonIndex) {
+//   return fetch(
+//     `https://pokeapi.co/api/v2/pokemon/${pokemonIndex}`
+//   ).then((data) => data.json());
+// }
+
+// function insertToDom(pokemonInfo) {
+//   const body = document.querySelector("body");
+//   const image = document.createElement("img");
+//   image.src = pokemonInfo.sprites.front_default;
+
+//   body.appendChild(image);
+
+//   return pokemonInfo;
+// }
+
+// function logPokemonName(pokemonInfo) {
+//   console.log(`Pokemon ${pokemonInfo.name} is rendered`);
+//   return pokemonInfo;
+// }
+
+// function createDelay(data, time) {
+//   return new Promise((resolve, reject) => {
+//     reject("Error");
+//     setTimeout(() => resolve(data), time);
+//   });
+// }
+
+// async function fetchPokemonWithAwait() {
+//   let errorText = null;
+//   const pokemonIndexes = [11, 15, 21, 41, 55, -12];
+
+//   const pokemonsList = await Promise.all(
+//     pokemonIndexes.map((i) =>
+//       fetchPokemon(i).catch((error) => {
+//         console.log(error);
+//         errorText = `Pokemon with index ${i} fetch failed`;
+//       })
+//     )
+//   );
+
+//   console.log(errorText);
+
+//   pokemonsList.forEach((pokemon) => {
+//     logPokemonName(pokemon);
+//     insertToDom(pokemon);
+//   });
+// }
+
+// function fetchPokemonWithPromiseThen() {
+//   fetchPokemon(74)
+//     .then(insertToDom)
+//     .then((pokemon) => createDelay(pokemon, 4000))
+//     .then(logPokemonName)
+//     .catch((error) => console.log("Error in promise: ", error));
+// }
+
 // =================== no name =====================
 // =================== no name =====================
 // =================== no name =====================
