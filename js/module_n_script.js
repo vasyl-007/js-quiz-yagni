@@ -1562,7 +1562,14 @@
 // }
 // console.log(a);   // 4
 
-// =================== no name =====================
+// =================== no name !!!  reverse string ==================
+// const str = "This text should be reversed";
+
+// function reverse(str) {
+//   console.log(str.split("").reverse().join(""));
+// }
+// reverse(str);     // desrever eb dluohs txet sihT
+
 // =================== no name =====================
 // =================== no name =====================
 // =================== no name =====================
