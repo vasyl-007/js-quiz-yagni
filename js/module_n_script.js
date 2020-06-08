@@ -1671,7 +1671,11 @@
 // if (a && b) console.log("b");     // b
 // else console.log("c");
 
-// =================== no name =====================
+// =================== no name set =====================
+// const arr = ["apple", "orange", "apple", "pear"];
+// const result = [...new Set(arr)];
+// console.log(result[2]);       // pear
+
 // =================== no name =====================
 // =================== no name =====================
 // =================== no name =====================
