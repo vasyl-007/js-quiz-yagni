@@ -1656,7 +1656,21 @@
 // console.log(solo.learn.get());    // great!
 
 // =================== no name =====================
+// for (var num = 2; num <= 4; num++) {
+//   var newNum = "";
+//   if (num % 3 === 0) newNum += "fizz";
+//   if (num % 5 === 0) newNum += "buzz";
+//   console.log(newNum);                    // fizz
+// }
+
 // =================== no name =====================
+// var a = "2" < "8";
+// var b = 2 < 8;
+// var c = undefined === null;
+// if (a && c) console.log("a");
+// if (a && b) console.log("b");     // b
+// else console.log("c");
+
 // =================== no name =====================
 // =================== no name =====================
 // =================== no name =====================
