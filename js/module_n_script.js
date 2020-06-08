@@ -1634,8 +1634,27 @@
 // console.log(x);   // 2
 
 // =================== no name =====================
+// for (let i = 10; i <= 15; i++) {
+//   console.log(45 - i);            // range bewteen 30 .... 35
+// }
+
 // =================== no name =====================
+// var str = "Hello";
+// console.log(str[str.length - 3].length);  // 1
+// console.log(str[str.length - 5]);  // H
+
 // =================== no name =====================
+// var solo = new (function() {
+//   var self = this;
+//   self.learn = {
+//     value: "great!",
+//     get: function() {
+//       return self.learn.value;
+//     }
+//   }
+// })();
+// console.log(solo.learn.get());    // great!
+
 // =================== no name =====================
 // =================== no name =====================
 // =================== no name =====================
