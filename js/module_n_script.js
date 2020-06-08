@@ -1617,7 +1617,22 @@
 // console.log(second());
 
 // =================== no name =====================
+// var l1 = ["java", "ruby", "python"];
+// var l2 = ["JS", "html"];
+// var courses = l2.concat(l1);
+// console.log(courses[1]);    // html
+
 // =================== no name =====================
+// var x = 0;
+// if (true && false) {
+//   x = 1;
+// } else if (true || false) {
+//   x = 2;
+// } else {
+//   x = 3;
+// }
+// console.log(x);   // 2
+
 // =================== no name =====================
 // =================== no name =====================
 // =================== no name =====================
