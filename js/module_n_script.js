@@ -1717,8 +1717,33 @@
 // console.log(res);   // edoc
 
 // =================== no name =====================
+// class Person {
+//   constructor(name, age) {
+//     this._name = name;
+//     this._age = age;
+//   }
+//   get name() {
+//     return this._name;
+//   }
+// }
+// let john = new Person("jhonny", 15);
+// console.log(john.name);     // jhonny
+
 // =================== no name =====================
+// var a = 2;
+// function set() {
+//   var a = 5;
+// }
+// console.log(a);   // 2
+
 // =================== no name =====================
+// var a = 2;
+// function set() {
+//   a = 5;
+// }
+// set();
+// console.log(a); // 5
+
 // =================== no name =====================
 // =================== no name =====================
 // =================== no name =====================
