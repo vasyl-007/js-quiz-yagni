@@ -1700,18 +1700,22 @@
 // =================== no name =====================
 // const array1 = [1, 2, 3, 4];
 
-
 // console.log(array1.fill(0, 2, 4));  // fill with 0 from position 2 until position 4
 // // expected output: [1, 2, 0, 0]
-
 
 // console.log(array1.fill(10, 2));    // fill with 5 from position 1
 // // expected output: [1, 2, 10, 105]
 
 // console.log(array1.fill(6));  // expected output: [6, 6, 6, 6]
 
+// =================== no name ! =====================
+// var str = "code";
+// var res = "";
+// for (var i = str.length - 1; i >= 0; i--) {
+//   res += str[i];
+// }
+// console.log(res);   // edoc
 
-// =================== no name =====================
 // =================== no name =====================
 // =================== no name =====================
 // =================== no name =====================
