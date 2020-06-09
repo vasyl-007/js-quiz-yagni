@@ -1677,9 +1677,40 @@
 // console.log(result[2]);       // pear
 
 // =================== no name =====================
+// var s =
+//   "This., -/ ' ' is #! an $ % ^ & * example ;: {} of a = -_ string with `~)() punctuation";
+// var punctuationless = s.replace(/[.,\/#!$%\^&\*;:{}=\-_`~()]/g, "");
+// var finalString = punctuationless.replace(/\s{2,}/g, " ");
+
+// console.log("source string: ", s);
+// console.log("punctuationless string: ", punctuationless);
+
 // =================== no name =====================
+// var max = Math.max(true, false);
+// console.log(max); // 1
+
+// var max2 = Math.max(true, false, NaN);
+// console.log(max2); // NaN
+
+// =================== no name fill =====================
+// var arr = [1, 2, 3, 4];
+// var x = arr.fill(0, 2, 4);
+// console.log(x); // [1, 2, 0, 0]
+
 // =================== no name =====================
-// =================== no name =====================
+// const array1 = [1, 2, 3, 4];
+
+
+// console.log(array1.fill(0, 2, 4));  // fill with 0 from position 2 until position 4
+// // expected output: [1, 2, 0, 0]
+
+
+// console.log(array1.fill(10, 2));    // fill with 5 from position 1
+// // expected output: [1, 2, 10, 105]
+
+// console.log(array1.fill(6));  // expected output: [6, 6, 6, 6]
+
+
 // =================== no name =====================
 // =================== no name =====================
 // =================== no name =====================
