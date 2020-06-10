@@ -1905,12 +1905,40 @@
 // }
 
 // =================== no name =====================
+// const str = 'Mozilla';
 
+// console.log(str.substr(1, 2));  // expected output: "oz"
+
+// console.log(str.slice(1, 3));   // expected output: "zilla"
+
+// =================== no name ! =====================
+// function calc(j, p) {
+//   j *= ++p;
+//   return j + p;
+//   j -= p;
+// }
+// console.log(calc(2, 2));    // 9
+
+// =================== no name ! =====================
+// var a;
+// var b = "undefined";
+// console.log(+(typeof a == b));    // 1
 
 // =================== no name =====================
+// let arr = [1, 2, 2, 3, 3, 5];
+// let set = new Set(arr);
+// let map = new Map([arr]);
+
+// console.log("map:" + map.size);   // 1
+// console.log("set:" + set.size);   // 4
+
 // =================== no name =====================
-// =================== no name =====================
-// =================== no name =====================
+// for (let i = 0; i < 100; i++) {
+//   if (i % 20 == i - 20) {
+//     console.log(i + "");          // range 20 - 39
+//   }
+// }
+
 // =================== no name =====================
 // =================== no name =====================
 // =================== no name =====================
