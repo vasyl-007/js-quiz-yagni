@@ -1940,10 +1940,45 @@
 // }
 
 // =================== no name =====================
+// var arr = [1, 3, 4, 2];
+// var count = 0;
+// for (var x = 0; x < arr.length; x++) {
+//   x = arr[x];
+//   count++;
+// }
+// console.log(count);   // 2
+
 // =================== no name =====================
+// function logic(a = 1, b = false) {
+//   var c = a && b;
+//   if (c) {
+//     let d = true;
+//   } else {
+//     let d = false;
+//   }
+//   return d;
+// }
+// console.log(logic(0));    // erros d is not defined
+
 // =================== no name =====================
+// var x = 15;
+// var y = 3;
+// x -= y;
+// y = x / y;
+// console.log(y);   // 4
+
+// =================== no name ! =====================
+// var my_set = new Set([0, 1, 2, 3]);
+// my_set.push(4);           // error my_set is not a function
+// console.log(my_set);
+
+// console.log(my_set)
+
 // =================== no name =====================
-// =================== no name =====================
+// console.log("Itchy" != "Scratchy");   // true
+// console.log("apple" === "apple");   // true
+// console.log("apples" === "apple");   // false
+
 // =================== no name =====================
 // =================== no name =====================
 // =================== no name =====================
