@@ -1842,19 +1842,48 @@
 // console.log(a);   // 5
 
 // =================== no name =====================
-// let a = typeof constructor == "object"; 
+// let a = typeof constructor == "object";
 // let b = typeof constructor == "function";     // true
 // let c = typeof constructor == "undefined";
 // console.log(a, b, c);       // false  true  false
 
 // =================== no name =====================
+// console.log(+"1" + +"1");   // 2
 
+// =================== no name =====================
+// console.log("" == 0);     // true
+// console.log("" === 0);    // false
 
 // =================== no name =====================
+// for (let i = 0; i < 100; i++) {
+//   if (i % 10 === i) console.log(i);     // range (0 - 9)
+// }
+
 // =================== no name =====================
+// let obj = {
+//   1: 0,
+//   0: 1,
+//   a: 10,
+// };
+// console.log(obj["1"]); // 0
+// console.log(obj["a"]); // 10
+
+// =================== no name !!! =====================
+// Number.prototype.reverse = function () {
+//   let bar = this + "";          // перевод числа в строку
+//   console.log("bar: ", bar)
+//   let eggs = "";
+//   for (let i in bar) {
+//     eggs += bar.charAt(bar.length - i - 1);
+//   }
+//   return eggs;
+// };
+// var a = 32,
+//   b = 77;
+// console.log(a.reverse() + b.reverse()); // 2377
+
 // =================== no name =====================
-// =================== no name =====================
-// =================== no name =====================
+
 // =================== no name =====================
 // =================== no name =====================
 // =================== no name =====================
