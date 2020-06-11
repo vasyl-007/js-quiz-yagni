@@ -2026,5 +2026,18 @@
 // }
 
 // =================== no name =====================
-// =================== no name =====================
+// var myArr = [1, 2, 3];
+// var myObj = { first: "one", second: "two", third: myArr };
+// console.log(myObj.third.length);        // 3
+
+// =================== no name ! =====================
+// var a = [0, 1, 2, 3];
+// var b = [];
+// for (let i = 0; i <= a.length; i++) {
+//   if (i == a[i]) {
+//     b.push(i++);
+//   }
+// }
+// console.log(b); // [0, 2]
+
 // =================== no name =====================
