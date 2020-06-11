@@ -2073,8 +2073,25 @@
 // var y = Math.ceil(98.45);
 // console.log(x + y + "1");   // 1021
 
+// =================== no name ! cool =====================
+// function order(item, quantity) {
+//   console.log((item.stock += quantity));        // 10
+// }
+// var shirt = {
+//   size: "xl",
+//   price: 10,
+//   stock: 5,
+// };
+// if (shirt.stock >= 5) {
+//   order(shirt, 5);
+// }
+
 // =================== no name =====================
-// =================== no name =====================
+// var x = new Array(4).toString();
+// console.log(x);                     // ,,,
+
+// console.log(new Array(4))
+
 // =================== no name =====================
 // =================== no name =====================
 // =================== no name =====================
