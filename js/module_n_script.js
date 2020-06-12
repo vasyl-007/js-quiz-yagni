@@ -2108,9 +2108,40 @@
 // var c = a || b;
 // console.log(c); // {}
 
+// =================== no name ! =====================
+// var a = 7 * 4;
+// var b = a % 6;
+// var c = a - b;
+// console.log((c -= 6));      // 18
+
 // =================== no name =====================
+// var arr = [1];
+// for (var i = 0; i < 3; i++) {
+//   arr.push([]);
+// }
+// console.log(arr);
+
 // =================== no name =====================
+// var a = [10] === 10;
+// a ? (a = 1) : (a = 0);
+// console.log(a);     // 0
+
+// console.log([10] == 10);    // true
+// console.log([10] === 10)    // false
+
+// =================== no name ! =====================
+// function foo(str) {
+//   arguments[0] = "Hello";
+//   return str;
+// }
+// function bar(str) {
+//   "use strict";
+//   arguments[0] = "World";
+//   return str;
+// }
+// console.log(foo("hello1") + " " + bar("world2"));   // hello1 world2
+
 // =================== no name =====================
-// =================== no name =====================
-// =================== no name =====================
+
+
 // =================== no name =====================
