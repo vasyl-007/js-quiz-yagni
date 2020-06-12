@@ -2093,7 +2093,21 @@
 // console.log(new Array(4))
 
 // =================== no name =====================
+// let set = new Set();
+// set.add(1).add(2).add(3).add(4);
+
+// // console.log(set);   // {1,2,3,4}
+
+// set.clear();
+// // console.log(set);        // {}
+// console.log(set.has(2));    // false
+
 // =================== no name =====================
+// var a = null;
+// var b = {};
+// var c = a || b;
+// console.log(c); // {}
+
 // =================== no name =====================
 // =================== no name =====================
 // =================== no name =====================
