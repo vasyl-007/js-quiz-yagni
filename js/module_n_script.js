@@ -2239,10 +2239,17 @@
 //   console.log(Array.isArray(arguments));    // false
 //   console.log(+Array.isArray(arguments));    // 0
 // }
-// hello(5);       
+// hello(5);
 
 // =================== no name =====================
+// alert(console.log("Solo"))      // alert prings "underined" and console.log - "Solo"
+
 // =================== no name =====================
+// function slices() {
+//   return "SoloLearn".slice(5, -1);      // ear (from index 5 to last exept last one)
+// }
+// console.log(slices());
+
 // =================== no name =====================
 // =================== no name =====================
 // =================== no name =====================
