@@ -2177,8 +2177,33 @@
 // console.log(b);    // [0, 2]
 
 // =================== no name =====================
+// foo();
+// var foo = 3;
+// function foo() {
+//   console.log("1");
+// }
+// function foo() {
+//   console.log("2");
+// }
+
 // =================== no name =====================
+// const str = "Mozilla";
+
+// console.log(str.substring(1, 4));   // expected output: "ozi"
+
+// console.log(str.slice(1, 4));       // expected output: "ozi"
+
 // =================== no name =====================
+// let a, b, c;
+// a = 1;
+// b = 5;
+// c = 7;
+// if (++b + a > b++) {
+//   console.log(b - 4);   // 3
+// } else {
+//   console.log(c - b);
+// }
+
 // =================== no name =====================
 // =================== no name =====================
 // =================== no name =====================
