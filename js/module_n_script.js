@@ -2229,8 +2229,18 @@
 // console.log(test.getContext() === test);    // true;
 
 // =================== no name =====================
+// console.log(typeof Math);           // object
+// console.log(typeof Math.sin);       // function
+// console.log(typeof Math.sin());     // number
 
 // =================== no name =====================
+// function hello() {
+//   console.log(arguments[0]);                // 5
+//   console.log(Array.isArray(arguments));    // false
+//   console.log(+Array.isArray(arguments));    // 0
+// }
+// hello(5);       
+
 // =================== no name =====================
 // =================== no name =====================
 // =================== no name =====================
