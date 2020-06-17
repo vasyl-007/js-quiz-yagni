@@ -2259,11 +2259,46 @@
 // }
 // console.log(y);  // 9
 
+// =================== no name !!! cool =====================
+// var x = 0;
+// for (; x <= 8; x++) {
+//   x += x - x++;
+// }
+// console.log(x + 1);      // 10
+
 // =================== no name =====================
+// var str = "This is SoloLearn";
+// var pos = str.indexOf("Solo");
+// console.log(pos++);             // 8
+// console.log(++pos);             // 10
+
+// =================== no name !!!! difficult =====================
+// const num = [1, 2, 3, 4, 4, 3, 2, 1];
+// const len = num.length;
+// const arr = new Array();
+// for (let i = 0; i < len; i++) {
+//   if (arr.indexOf(num[i]) == -1) {
+//     arr.push(num[i]);
+//     arr.reverse([i]);
+//   }
+// }
+// console.log(arr)
+
+// =================== no name !!! =====================
+// var obj = new (class myClass {
+//   constructor() {
+//     this.age = 5;
+//   }
+// })();
+// console.log(obj.age); // 5
+
 // =================== no name =====================
-// =================== no name =====================
-// =================== no name =====================
-// =================== no name =====================
+// for (var i = 0; i <= 6; i++) {
+//   setTimeout(function () {
+//     console.log(i);             // 7 7 7 7 7 7 7
+//   }, i * 1000);
+// }
+
 // =================== no name =====================
 // =================== no name =====================
 // =================== no name =====================
