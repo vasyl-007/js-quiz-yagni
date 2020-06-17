@@ -2300,8 +2300,28 @@
 // }
 
 // =================== no name =====================
+// var arr1 = [4, 7, 2];
+// var arr2 = arr1;
+// arr1[0] = 5;
+// console.log(arr1[0] + arr2[0]);     // 10
+
 // =================== no name =====================
+// var x = NaN;
+// var y = 205;
+// var z = x + y;
+// console.log(z);     // NaN
+
 // =================== no name =====================
+// var info1 = {
+//   planet: "Earth",
+//   "suitable Fo Living": true,
+// };
+// var info2 = {
+//   planet: "Earth",
+//   "suitable Fo Living": true,
+// };
+// console.log(info1 === info2 || info1 == info2);     // false
+
 // =================== no name =====================
 // =================== no name =====================
 // =================== no name =====================
