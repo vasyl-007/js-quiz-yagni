@@ -2505,12 +2505,37 @@
 // var y = 4 - "8";
 // console.log(x - y);     // 76
 
-// =================== no name =====================
+// =================== no name !!!! =====================
+// console.log(typeof function () {} === "function");  // true
+// console.log(typeof class C {} === "function");      // true
+// console.log(typeof Math.sin === "function");        // true
+// console.log(typeof Math.sin() === "number"); // true
+// console.log(typeof Math === "object"); // true
 
+// =================== no name =====================
+// var str = "Bob";
+// var x = 0;
+// do {
+//   console.log(str);     // "Bob" "Bob" "Bob"
+//   x++;
+// } while (x < 3);
 
-// =================== no name =====================
-// =================== no name =====================
-// =================== no name =====================
+// =================== no name ! =====================
+// var x = {
+//     age: "20",
+//     msg: function(age) {
+//         return(this.age);   // 20
+//     }
+// }
+// console.log(x.msg(25))
+
+// =================== no name ! =====================
+// function sum(i) {
+//   return ++i;
+// }
+// for (var i = 0; i <= 1; i++) {}
+// console.log(sum(i));            // 3
+
 // =================== no name =====================
 // =================== no name =====================
 // =================== no name =====================
