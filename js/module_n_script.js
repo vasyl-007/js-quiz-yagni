@@ -2537,9 +2537,44 @@
 // console.log(sum(i));            // 3
 
 // =================== no name =====================
+// var a = NaN;
+// var b = 0;
+// if (a == b) {
+//   console.log(1);
+// } else {
+//   console.log(0);   // 0
+// }
+
+// =================== no name !!! =====================
+// function Alphabet(character, number) {
+//   this.character = character;
+//   this.number = number;
+//   this.change = function (character, number) {
+//     this.character = character;
+//   };
+// }
+// var a = new Alphabet("a", 1);
+// a.change("b", 2);
+// console.log(a.number);      // 1
+
 // =================== no name =====================
-// =================== no name =====================
-// =================== no name =====================
+// const say = (name) => {
+//   let a = name;
+//   return say;
+// };
+// console.log(typeof say("SoloLearn"));   // function
+
+// =================== no name ! =====================
+// var n = 42;
+// for (var i = 0; i < 7; i++) {
+//   i--;
+//   n += i;
+//   if (i <= 0) {
+//     break;
+//   }
+// }
+// console.log(n);     // 41
+
 // =================== no name =====================
 // =================== no name =====================
 // =================== no name =====================
