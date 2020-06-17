@@ -2445,6 +2445,80 @@
 // console.log((c -= 3));  // 1
 
 // =================== no name =====================
+// var a1 = new Array("1", "2", "3", "4");
+// var a2 = new Array(1, 2, 3, 4);
+// console.log(a1 == a2);              // false
+
+// =================== no name =====================
+// var arr = [1];
+// for (var i = 1; i < 3; i++) {
+//   arr[i] = arr[i - 1] + i;
+// }
+// console.log(arr.join(""));      // 124
+
+// =================== no name !!! reverse numbers =====================
+// Number.prototype.reverse = function () {
+//   let bar = this + "";
+//   let eggs = "";
+//   for (let i in bar) {
+//     eggs += bar.charAt(bar.length - i - 1);
+//   }
+//   return eggs;
+// };
+// var a = 32,
+//   b = 70;
+// console.log(a.reverse() + b.reverse());     // 2307
+
+// =================== no name =====================
+// let set = new Set();
+// set.add(1).add(2).add(3).add(4);
+// set.clear();
+// console.log(set.has(2));    // false
+
+// =================== no name =====================
+// var x = [1, 2];
+// var y = [1, 2];
+// console.log([x[y[1]]]);     // undefined
+
+// =================== no name =====================
+// var arr = [];
+// arr[0] = "a";
+// arr[1] = "b";
+// arr.foo = "c";
+// console.log(arr.length);    // 2
+
+// =================== no name =====================
+// var string = "I love SoloLearn!";
+// var search1 = string.search("SoloLearn");
+// var search2 = string.indexOf("SoloLearn");
+// console.log(search1);        // 7
+// console.log(search2);        // 7
+
+// =================== no name IIFE =====================
+// (function(x) {
+//     var x;
+//     return console.log(x);      // 1
+// })(1)
+
+// =================== no name =====================
+// var x = 7 + "2";
+// var y = 4 - "8";
+// console.log(x - y);     // 76
+
+// =================== no name =====================
+
+
+// =================== no name =====================
+// =================== no name =====================
+// =================== no name =====================
+// =================== no name =====================
+// =================== no name =====================
+// =================== no name =====================
+// =================== no name =====================
+// =================== no name =====================
+// =================== no name =====================
+// =================== no name =====================
+// =================== no name =====================
 // =================== no name =====================
 // =================== no name =====================
 // =================== no name =====================
