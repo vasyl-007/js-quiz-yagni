@@ -2351,6 +2351,66 @@
 // }
 // factorial(4);   // 24
 
+// =================== no name ! =====================
+// var a = false;
+// var b = true;
+// var x = (a && b) || b;
+// console.log(!(x !== true));     // true
+
+// =================== no name =====================
+// console.log(typeof Math);       // object
+// console.log(typeof document);   // object
+
+// =================== no name ! cool =====================
+// console.log(7 > 100 > 5 == true);   // false
+// console.log(12 <= 20 > false == true);   // true
+// console.log(12 <= 20 > true !== true);      // true
+
+// =================== no name =====================
+// let vow = new Set(["a", "e", "i", "o", "u"]);
+// vow.clear();
+// console.log(vow.add("a").size);     // 1
+
+// =================== no name =====================
+// var x = 2;
+// var y = 3;
+// do {
+//   y++;
+// } while (x < 0);
+// console.log(y);     // 4
+
+// =================== no name =====================
+// var arr = [1, 2, 3, 4];
+// var x = 0;
+// for (var i = 0; i < arr.length; i++) {
+//   if (arr[i] % 2 == 0) {
+//     x *= arr[i];
+//   }
+// }
+// console.log(x);     // 0
+
+// =================== no name =====================
+// let { log } = console;
+// log([true, false].some((e) => e));      // true
+// log([false, false].some((e) => e));     // false
+
+// =================== no name =====================
+// var x = Boolean(NaN === NaN);
+// var y = Boolean(NaN == NaN);
+// if (!x) {
+//   console.log(x === y); // true
+// } else {
+//   console.log(y);
+// }
+
+// console.log(x, y);  // false, false
+
+// =================== no name =====================
+// =================== no name =====================
+// =================== no name =====================
+// =================== no name =====================
+// =================== no name =====================
+// =================== no name =====================
 // =================== no name =====================
 // =================== no name =====================
 // =================== no name =====================
