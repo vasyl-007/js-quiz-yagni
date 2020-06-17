@@ -2323,8 +2323,34 @@
 // console.log(info1 === info2 || info1 == info2);     // false
 
 // =================== no name =====================
-// =================== no name =====================
-// =================== no name =====================
+// var x = String("Solo");
+// var y = String("Solo");
+// console.log(x == y);        // true
+// console.log(x === y);       // true
+// console.log(typeof y);      // string
+// console.log(typeof String)  // function
+// console.log(typeof String()) // string
+
+// =================== no name !!! cool =====================
+// var i = 0;
+// var a = {
+//   ["try" + ++i]: i + 1,
+//   ["try" + ++i]: i + 2,
+// };
+// console.log(a.try1);    // 2
+// console.log(a.try2);    // 4
+
+// =================== no name !n ~~~ n-factorial =================
+// function factorial(n) {
+//   var res = 1;
+//   for (var i = 2; i <= n; ++i) {
+//     res *= i;
+//   }
+//   console.log(res);
+//   return res;
+// }
+// factorial(4);   // 24
+
 // =================== no name =====================
 // =================== no name =====================
 // =================== no name =====================
