@@ -2405,10 +2405,45 @@
 
 // console.log(x, y);  // false, false
 
+// =================== no name !!! =====================
+// var arr = [1, 2, 3, 4];
+// var x = 0;
+// for (var i = 0; i < arr.length; i++) {
+//   if (arr[i] % 2 == 0) {
+//     x *= arr[i];
+//   }
+// }
+// console.log(x);     // 0
+
+// =================== no name scope =====================
+// var x = 2;
+// var obj = {
+//   x: 1,
+//   change: function () {
+//     var x = 3;
+//   },
+// };
+// obj.change();
+// console.log(obj.x);     // 1 (three scopes: global, block and functional)
+
+// =================== no name !!! cool arrary into another array =====================
+// var arr = new Array("");
+// for (var i = 0; i < 10; i++) {
+//   arr[i] = new Array("");
+//   for (var j = 0; j < 10; j++) {
+//     arr[i][j] = i * j;
+//   }
+// }
+// console.log(arr[4][8]);     // 32
+
+// console.log(arr)
+
 // =================== no name =====================
-// =================== no name =====================
-// =================== no name =====================
-// =================== no name =====================
+// var a = 3 * 2;
+// var b = a % 4;
+// var c = a - b;
+// console.log((c -= 3));  // 1
+
 // =================== no name =====================
 // =================== no name =====================
 // =================== no name =====================
