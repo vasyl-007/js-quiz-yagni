@@ -2576,7 +2576,24 @@
 // console.log(n);     // 41
 
 // =================== no name =====================
-// =================== no name =====================
+// console.log((NaN - 2) * (4 / 2));   // NaN
+
+// =================== no name function expression, declaration and arrow function =============
+// var foo1 = function (a) {
+//   return a * a;             // 25
+// };
+// console.log(foo1(5));
+
+// function foo2(a) {
+//   return a * a;             // 25
+// }
+// console.log(foo2(5));
+
+// let foo3 = (a) => {
+//   return a * a;             // 25
+// };
+// console.log(foo3(5));
+
 // =================== no name =====================
 // =================== no name =====================
 // =================== no name =====================
