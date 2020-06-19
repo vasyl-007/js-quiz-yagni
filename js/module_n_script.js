@@ -2646,7 +2646,22 @@
 // let [one, two = 5, ...rest] = nums();
 // console.log(one + two);                 // 3
 
-// =================== no name =====================
+// =================== no name !!! =====================
+// var x = 0;
+// var gun = Object.create({ bullets: 10, shots: 0 });
+// var a = gun.hasOwnProperty("bullets");
+// var b = gun.hasOwnProperty("shots");
+// if (a && b) {
+//   x++;
+// }
+// console.log(a, b);     // false false
+
+// gun.shooting = true;
+// gun.bullets = 9;
+// gun.shots = 1;
+// x++;
+// console.log(x);     // 1
+
 // =================== no name =====================
 // =================== no name =====================
 // =================== no name =====================
