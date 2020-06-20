@@ -2698,7 +2698,22 @@
 // console.log(x);         // 112
 
 // =================== no name =====================
+// var arr = [
+//   [1, 2],
+//   [3, 4, 5, 7],
+// ];
+// console.log([arr[1].length % arr[0].length]);   // [0]
+
 // =================== no name =====================
+var c = new Array(1, 2, 3, 4);
+var b = c.filter(function (a) {
+  //   console.log(a);
+  console.log(a % 2);
+  return a % 3;
+});
+console.log(b[0] + b[1]);
+console.log(b);
+
 // =================== no name =====================
 // =================== no name =====================
 // =================== no name =====================
