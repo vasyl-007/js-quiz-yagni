@@ -2704,15 +2704,15 @@
 // ];
 // console.log([arr[1].length % arr[0].length]);   // [0]
 
-// =================== no name =====================
-var c = new Array(1, 2, 3, 4);
-var b = c.filter(function (a) {
-  //   console.log(a);
-  console.log(a % 2);
-  return a % 3;
-});
-console.log(b[0] + b[1]);
-console.log(b);
+// =================== no name !! =====================
+// var c = new Array(1, 2, 3, 4);
+// var b = c.filter(function (a) {
+//   //   console.log(a);
+//   console.log(a % 2);
+//   return a % 2;
+// });
+// console.log(b[0] + b[1]);   // 4
+// console.log(b);         // [1, 3]
 
 // =================== no name =====================
 // =================== no name =====================
