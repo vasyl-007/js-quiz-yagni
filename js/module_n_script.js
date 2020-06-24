@@ -3001,17 +3001,147 @@
 // const { coords: { start: [startX, startY], end: [endX, endY] } } = shape
 // console.log(startX, startY, endX, endY)     // 10 17 17 15
 
-// =================== no name =====================
+// =================== no name * Template literals ===================
+// const user = "Bob"
+// const num = 17
 
+// const txt = "Hello, " + user + " you have " + num + " letters in your inbox"
+// console.log(txt)    // Hello, Bob you have 17 letters in your inbox
+
+// const txt2 = `Hello ${user} you have ${num} letters in your inbox`
+// console.log(txt2)   // Hello, Bob you have 17 letters in your inbox
+
+// console.log(txt.trim() == txt2.trim())  // false
+
+// const date = `Now is ${Date.now()}`
+// console.log("date: ", date)     // date:  Now is 1593025593864
 
 // =================== no name =====================
+// const html =
+//     "<ul>" +
+//     "<li>Item One</li>" +
+//     "<li>Item One</li>"
+// "</ul>";
+
+// const items = ["tea", "coffee"]
+// const html2 = `
+// <ul>
+//     <li>${items[0]}</li>
+//     <li>${items[1]}</li>
+// </ul>
+// `;
+// console.log(html)
+// console.log(html2)
+
+// =================== no name * Objects ES6 ==================
+// const x = 10
+// const y = 30
+
+// const point = {
+//     x: x,
+//     y: y,
+//     draw: function () {
+//         return console.log("Draw smth from point")
+//     }
+// }
+
+// const point2 = {
+//     x,
+//     y,
+//     draw() {
+//         return console.log("Draw smth from point2")
+//     }
+// }
+
+// console.log(point.draw())   // Draw smth from point
+// console.log(point2.draw())  // Draw smth from point2
+
+// =================== no name * Objects ES6 dynamic naming / classes !!! ==============
+// const prefix = "priority_";
+
+// const data = {
+//     name: "Bob",
+//     [prefix + "surname"]: "Smith"
+// };
+
+// console.log(data)   // {name: "Bob", priority_surname: "Smith"}
+
+// =================== no name * Object.assign() =====================
+// const defaults = {
+//     host: "localhost",
+//     dbName: "blog",
+//     user: "admin"
+// };
+// const opts = {
+//     user: "John",
+//     password: "Travolta"
+// }
+// Object.assign({}, defaults, opts);
+// console.log(defaults)   // {host: "localhost", dbName: "blog", user: "John", password: "Travolta"}
+
+// =================== no name * Object.assign() - create shallow copy =====================
+// const defaults = {
+//     host: "localhost",
+//     dbName: "blog",
+//     user: "admin"
+// };
+// const opts = {
+//     user: "John",
+//     password: "Travolta"
+// }
+// const res = Object.assign({}, defaults, opts)
+// console.log(res)     // {host: "localhost", dbName: "blog", user: "John", password: "Travolta"}
+
 // =================== no name =====================
+// const person = {
+//     name: "Bob",
+//     friends: ["Mark", "Jacobs"]
+// }
+// const shallowCopy = Object.assign({}, person)
+// console.log(shallowCopy)
+
+// console.log(person == shallowCopy)  // false
+
+// =================== no name * shallow copy =====================
+// const person = {
+//     name: "Bob",
+//     friends: ["Mark", "Jacobs"]
+// }
+// const shallowCopy = Object.assign({}, person)
+// person.friends.push("Jane")
+
+// console.log(shallowCopy)    // friends: (3) ["Mark", "Jacobs", "Jane"]
+// // name: "Bob"
+// console.log(person.friends === shallowCopy.friends) // true         !!!! THAT IS WHY
+
+// =================== !!! no name * spread operator to Objects - ES 2018 =====================
+// const defaults = {
+//     host: "localhost",
+//     dbName: "blog",
+//     user: "admin"
+// };
+// const port = 8080
+// const opts = {
+//     user: "John",
+//     password: "Travolta"
+// }
+// const res = { ...defaults, ...opts, port }; // instead of port: port (shorthand)
+// console.log(res)        // {host: "localhost", dbName: "blog", user: "John", password: "Travolta", port: 8080}
+
 // =================== no name =====================
-// =================== no name =====================
-// =================== no name =====================
-// =================== no name =====================
-// =================== no name =====================
-// =================== no name =====================
-// =================== no name =====================
-// =================== no name =====================
+// const defaults = {
+//     host: "localhost",
+//     dbName: "blog",
+//     user: "admin"
+// };
+// const port = 8080
+// const opts = {
+//     user: "John",
+//     password: "Travolta"
+// }
+// const res = { ...defaults, ...opts, port, connect() { } }; // instead of port: port (shorthand)
+// console.log(res)        // {host: "localhost", dbName: "blog", user: "John", password: "Travolta", port: 8080, connect: f connect()}
+
+// =================== no name =============
+
 // =================== no name =====================
