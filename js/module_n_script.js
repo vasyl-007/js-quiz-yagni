@@ -2724,6 +2724,16 @@
 // console.log(res);       // 3
 
 // =================== no name =====================
+// const arr = ["1", "2", "3", "4"];
+// const res2 = arr.map(function (el) {
+//     return parseInt(el);
+// }).filter(function (num) {
+//     return num % 2;
+// }).reduce(function (max, value) {
+//     return Math.max(max, value)
+// }, 0);
+// console.log(res2);      // 3
+
 // =================== no name =====================
 // =================== no name =====================
 // =================== no name =====================
