@@ -2804,10 +2804,29 @@
 // }
 // max3(1, 2, 3)   // [3]
 
+// =================== no name  spread operator =====================
+// const arr = [1, 2, 3, 4, 5];
+// const res = Math.max.apply(Math, arr)
+// console.log(res)        // 5;
 
+// const res2 = Math.max(...arr)
+// console.log(res2)   // 5
+
+// const arr2 = [2, 5, 8, 1, 0];
+// const res3 = Math.max(...arr, ...arr2)
+// console.log(res3) // 8
+
+// const res4 = Math.max(...arr, 3, 4, ...arr2, 12)
+// console.log(res4) // 12
+
+// const array1 = [1, 2, 3]
+// const array2 = [4, 5, 6]
+// const shallowCopy = [...array1, ...array2, 41]
+// console.log(shallowCopy)    // [1, 2, 3, 4, 5, 6, 41]
 
 // =================== no name =====================
-// =================== no name =====================
+
+
 // =================== no name =====================
 // =================== no name =====================
 // =================== no name =====================
