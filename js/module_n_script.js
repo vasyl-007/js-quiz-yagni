@@ -2949,8 +2949,31 @@
 // console.log(duck)           // quack
 // console.log(otherAnimals)   // {dog: "wuff", mouse: "squek"}
 
+// =================== no name Fibonacci sequence (number) =====================
+// const fib = [1, 1, 2, 3, 5, 8, 13]
+
+// const [a, b, c] = fib
+// console.log(a, b, c)     // 1 1 2
+
+// const [, l, , m, , n] = fib
+// console.log(l, m, n)     // 1 3 8
+
+// const line = [[10, 17], [14, 7]]
+
+// const [[x1, y1], [x2, y2]] = line
+// console.log(x1, y1, x2, y2) //      10 17 14 7
+
+// const people = ["Chris", "Sandra"]
+// const [a1, b1, c1 = "Guest"] = people
+// console.log(a1, b1, c1)         // Chris Sandra Guest
+
+// const people2 = ["Chris", "Sandra", "Bob"]
+// const [a2, ...others] = people2
+// console.log(others)         // [Sandra Bob]
+
 // =================== no name =====================
-// =================== no name =====================
+
+
 // =================== no name =====================
 // =================== no name =====================
 // =================== no name =====================
