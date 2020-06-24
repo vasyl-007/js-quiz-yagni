@@ -2824,13 +2824,70 @@
 // const shallowCopy = [...array1, ...array2, 41]
 // console.log(shallowCopy)    // [1, 2, 3, 4, 5, 6, 41]
 
-// =================== no name =====================
+// =================== no name Destructurizing =====================
+// const person = {
+//     firstName: "Peter",
+//     lastName: "Smith",
+//     age: 27
+// }
+
+// // const firstName = person.firstName;
+// // const lastName = person.lastName;
+
+// const { firstName, lastName } = person;
+// console.log("firstName: ", firstName, "lastName: ", lastName) //firstName:  Peter lastName:  Smith
 
 
+// =================== no name  deep destructurizing ===============
+// const person = {
+//     name: {
+//         first: "Peter",
+//         last: "Smith",
+//     },
+//     age: 27
+// }
+// const { name: { first, last } } = person;
+// console.log(first, last)    // Peter Smith
+
+// =================== no name !!! deep destructurizing with changing keys !!!=====================
+// const person = {
+//     name: {
+//         first: "Peter",
+//         last: "Smith",
+//     },
+//     age: 27
+// }
+// const { name: { first: firstName, last: lastName } } = person;
+// console.log(firstName, lastName)    // Peter Smith
+
 // =================== no name =====================
+// const person = {
+//     name: {
+//         first: "Peter",
+//         last: "Smith"
+//     },
+//     age: 27
+// }
+
+// console.log(person.role)    // undefined
+// const { role = "user" } = person;
+// console.log(role)           // user
+// console.log(person.role)    // undefined
+
 // =================== no name =====================
-// =================== no name =====================
-// =================== no name =====================
+const person = {
+    name: {
+        first: "Peter",
+        last: "Smith"
+    },
+    age: 27,
+    role: "admin"
+
+}
+
+const { role = "user" } = person;
+console.log(role)           // admin
+
 // =================== no name =====================
 // =================== no name =====================
 // =================== no name =====================
