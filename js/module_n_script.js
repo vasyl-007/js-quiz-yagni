@@ -2875,23 +2875,80 @@
 // console.log(person.role)    // undefined
 
 // =================== no name =====================
-const person = {
-    name: {
-        first: "Peter",
-        last: "Smith"
-    },
-    age: 27,
-    role: "admin"
+// const person = {
+//     name: {
+//         first: "Peter",
+//         last: "Smith"
+//     },
+//     age: 27,
+//     role: "admin"
 
-}
+// }
 
-const { role = "user" } = person;
-console.log(role)           // admin
+// const { role = "user" } = person;
+// console.log(role)           // admin
+
+// =================== no name !!! deep destructurizing =====================
+// const person = {
+//     name: {
+//         first: "Peter",
+//         last: "Smith"
+//     },
+//     age: 27,
+//     role: "admin"
+
+// }
+
+// const { role: { permissions = "all" } } = person;
+// console.log(permissions)           // all
+
+// const { rights: { restrictions1 = "no" } = {} } = person;
+// console.log(restrictions1)           // no
+
+// const { rights: { restrictions2 = "no" } } = person;
+// console.log(restrictions2)           // TypeError
 
 // =================== no name =====================
+// function connect({
+//     host = "localhost",
+//     port = 1234,
+//     user = "guest"
+// }) {
+//     console.log("user:", user, "port:", port, "host:", host)
+// }
+
+// connect({});                // user: guest   port: 1234   host: localhost
+// connect({ port: 1111 });    // user: guest   port: 1111   host: localhost
+// connect();                  // TypeError
+
 // =================== no name =====================
+// function abc(a = 5, b = 10) {
+//     console.log(a + b)      // 15
+// }
+// abc();
+
 // =================== no name =====================
-// =================== no name =====================
+// function connect({
+//     host = "localhost",
+//     port = 1234,
+//     user = "guest"
+// } = {}) {
+//     console.log("user:", user, "port:", port, "host:", host)
+// }
+
+// connect();  // user: guest port: 1234 host: localhost
+
+// =================== no name   ...rest element (at the last position) ===================
+// const dict = {
+//     duck: "quack",
+//     dog: "wuff",
+//     mouse: "squek"
+// }
+// const { duck, ...otherAnimals } = dict;
+
+// console.log(duck)           // quack
+// console.log(otherAnimals)   // {dog: "wuff", mouse: "squek"}
+
 // =================== no name =====================
 // =================== no name =====================
 // =================== no name =====================
