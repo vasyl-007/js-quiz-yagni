@@ -2735,6 +2735,99 @@
 // console.log(res2);      // 3
 
 // =================== no name =====================
+// const sq = (x) => {
+//     return x * x;
+// }
+
+// =================== no name =====================
+// const greeter = {
+//     greet: function (name) {
+//         console.log("Hello", name);
+//     },
+
+//     greetAll: function (names) {
+//         names.forEach(function (name) {
+//             this.greet(name);         // TypeError this was lost for greet
+//         });
+//     },
+// };
+
+// greeter.greetAll(["Bob", "Mark", "Pete"]);
+
+// =================== no name !!! arrow function =====================
+// const greeter = {
+//     greet: function (name) {
+//         console.log("Hello", name);
+//     },
+
+//     greetAll: function (names) {
+//         names.forEach((name) => {
+//             this.greet(name);         // Hello Bob  Hello Mark  Hello Pete
+//         });
+//     },
+// };
+
+// greeter.greetAll(["Bob", "Mark", "Pete"]);
+
+// =================== no name =====================
+// function fetchOrders(count, start = 4) {
+//     console.log("Getting", count, "orders starting from", start)
+// };
+// console.log(fetchOrders(undefined, 10))
+// console.log(fetchOrders(null, 10))
+// console.log(fetchOrders(10, 50))
+// console.log(fetchOrders(10, undefined))
+
+// =================== no name =====================
+// function findProducts(opts = { minPrice: 10, maxPrice: 20 }) {
+//     console.log(opts)   
+// }
+// findProducts();  // { minPrice: 10, maxPrice: 20 }
+// findProducts({});    // {}
+
+// =================== no name rest parameter =====================
+// max(1, 3)
+// function max() {
+//     var numbers = Array.prototype.slice.call(arguments);
+//     console.log(numbers)    // [1, 3]   
+// }
+
+// max2(1, 3, 4, 5, 6, 9)
+// max2(1)
+// max2()
+// function max2(...numbers) {
+//     console.log(numbers)    //  [1, 3, 4, 5, 6, 9]   // [1]   // []
+// }
+
+// function max3(a, b, ...numbers) {
+//     console.log(numbers)
+// }
+// max3(1, 2, 3)   // [3]
+
+
+
+// =================== no name =====================
+// =================== no name =====================
+// =================== no name =====================
+// =================== no name =====================
+// =================== no name =====================
+// =================== no name =====================
+// =================== no name =====================
+// =================== no name =====================
+// =================== no name =====================
+// =================== no name =====================
+// =================== no name =====================
+// =================== no name =====================
+// =================== no name =====================
+// =================== no name =====================
+// =================== no name =====================
+// =================== no name =====================
+// =================== no name =====================
+// =================== no name =====================
+// =================== no name =====================
+// =================== no name =====================
+// =================== no name =====================
+// =================== no name =====================
 // =================== no name =====================
 // =================== no name =====================
 // =================== no name =====================
