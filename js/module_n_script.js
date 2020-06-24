@@ -2971,11 +2971,39 @@
 // const [a2, ...others] = people2
 // console.log(others)         // [Sandra Bob]
 
+// =================== no name * find "squek" ====================
+// const dict = {
+//     duck: "quack",
+//     dog: "wuff",
+//     mouse: "squek",
+//     hamster: "squek"
+// }
+// const res = Object.entries(dict).filter((arr) => arr[1] === "squek")
+// console.log(res)      //  [["mouse", "squek"], ["hamster", "squek"]]
+
+// const res2 = Object.entries(dict).filter(([key, value]) => value === "squek") //  const [key, value] = arr
+// console.log(res2)      //  [["mouse", "squek"], ["hamster", "squek"]]
+
+// const res3 = Object.entries(dict).filter(([, value]) => value === "squek") //  const [, value] = arr
+// console.log(res3)      //  [["mouse", "squek"], ["hamster", "squek"]]
+
+// const res4 = Object.entries(dict).filter(([, value]) => value === "squek").map(([key]) => key) //  const [key, ] = arr
+// console.log(res4)      //  [["mouse", "squek"], ["hamster", "squek"]]
+
+// =================== no name =====================
+// const shape = {
+//     type: "segment",
+//     coords: {
+//         start: [10, 17],
+//         end: [17, 15]
+//     }
+// }
+// const { coords: { start: [startX, startY], end: [endX, endY] } } = shape
+// console.log(startX, startY, endX, endY)     // 10 17 17 15
+
 // =================== no name =====================
 
 
-// =================== no name =====================
-// =================== no name =====================
 // =================== no name =====================
 // =================== no name =====================
 // =================== no name =====================
