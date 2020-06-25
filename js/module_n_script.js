@@ -3324,9 +3324,66 @@
 // const duck = new Bird("Duck", "quack", true);
 // duck.say();       // Duck goes quack
 
+// =================== no name * Class properties !!! =====================
+// class Counter {
+//     count = 1;
+
+//     increment = () => {
+//         this.count++;
+//         console.log(this.count)
+//     }
+// }
+
+// const counter = new Counter();
+// console.log(counter.count);         // 1
+
+// counter.increment();                // 2
+// setTimeout(counter.increment, 1000) // 3
+
+
 // =================== no name =====================
+// class Counter {
+//     count = 0;
+
+//     increment = () => {
+//         this.count += Counter.incrementStep;
+//         console.log(this.count)
+//     }
+//     static incrementStep = 2;
+
+//     static incrementAll = function (arr) {
+//         arr.forEach((c) => c.increment())
+//     }
+// }
+
+// const counter = new Counter();
+// console.log(counter.count);         // 0
+
+// counter.increment();                // 2
+// setTimeout(counter.increment, 1000) // 4
+
 // =================== no name =====================
-// =================== no name =====================
+// class Counter {
+//     constructor() {
+//         this.count = 0;
+//         this.increment = () => {
+//             this.count += Counter.incrementStep;
+//             console.log(this.count)
+//         }
+//     }
+// }
+// Counter.incrementStep = 2;
+
+// Counter.incrementAll = function (arr) {
+//     arr.forEach((c) => c.increment())
+// }
+
+// const counter = new Counter();
+// console.log(counter.count);         // 0
+
+// counter.increment();                // 2
+// setTimeout(counter.increment, 1000) // 4
+
 // =================== no name =====================
 // =================== no name =====================
 // =================== no name =====================
