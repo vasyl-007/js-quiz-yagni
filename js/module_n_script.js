@@ -3176,14 +3176,47 @@
 //     name: "cat",
 //     voice: "meow",
 // };
-// Object.setPrototypeOf(dog, animal)
-// Object.setPrototypeOf(cat, animal)
+// Object.setPrototypeOf(dog, animal)       // !Warning very and very slow method for V8
+// Object.setPrototypeOf(cat, animal)       // !Warning very and very slow method for V8
 
 // dog.say();  // dog goes woof
 // cat.say();  // cat goes meow
 
+// =================== no name * Object.create(obj) - prototype ===================
+// const animal = {
+//     say: function () {
+//         console.log(this.name, "goes", this.voice);
+//     }
+// }
+// // const dog = {
+// //     name: "dog",
+// //     voice: "woof",
+// // };
+// const dog = Object.create(animal);
+// dog.name = "Dog";
+// dog.voice = "woof"
+
+// dog.say();  // dog goes woof
+
 // =================== no name =====================
-// =================== no name =====================
+const animal = {
+    say: function () {
+        console.log(this.name, "goes", this.voice);
+    }
+}
+
+function createAnimal(name, voice) {
+    const result = Object.create(animal);
+    result.name = name;
+    result.voice = voice;
+    return result;
+}
+const dog = createAnimal("Dog", "woof")
+const cat = createAnimal("Cat", "meow")
+
+dog.say();  // Dog goes woof
+cat.say();  // Cat goes meow
+
 // =================== no name =====================
 // =================== no name =====================
 // =================== no name =====================
