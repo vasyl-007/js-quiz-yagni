@@ -3218,18 +3218,17 @@
 // cat.say();  // Cat goes meow
 
 // =================== no name * !!! Function-constructor ==================
-const animal = {
-    say: function () {
-        console.log(this.name, "goes", this.voice);
-    }
-}
 
 function Animal(name, voice) {                  // функция-конструктор (возвращает другой объект)
     // const result = Object.create(animal);    // !do not need to do this
-    result.name = name;
-    result.voice = voice;
+    this.name = name;
+    this.voice = voice;
     // return result;                           // !do not need to do this
 }
+Animal.prototype.say = function () {
+    console.log(this.name, "goes", this.voice);
+}
+
 const dog = new Animal("Dog", "woof")
 const cat = new Animal("Cat", "meow")
 
