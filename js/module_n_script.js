@@ -3198,26 +3198,44 @@
 
 // dog.say();  // dog goes woof
 
-// =================== no name =====================
+// =================== no name !!! Object.create(obj) ===================
+// const animal = {
+//     say: function () {
+//         console.log(this.name, "goes", this.voice);
+//     }
+// }
+
+// function createAnimal(name, voice) {
+//     const result = Object.create(animal);
+//     result.name = name;
+//     result.voice = voice;
+//     return result;
+// }
+// const dog = createAnimal("Dog", "woof")
+// const cat = createAnimal("Cat", "meow")
+
+// dog.say();  // Dog goes woof
+// cat.say();  // Cat goes meow
+
+// =================== no name * !!! Function-constructor ==================
 const animal = {
     say: function () {
         console.log(this.name, "goes", this.voice);
     }
 }
 
-function createAnimal(name, voice) {
-    const result = Object.create(animal);
+function Animal(name, voice) {                  // функция-конструктор (возвращает другой объект)
+    // const result = Object.create(animal);    // !do not need to do this
     result.name = name;
     result.voice = voice;
-    return result;
+    // return result;                           // !do not need to do this
 }
-const dog = createAnimal("Dog", "woof")
-const cat = createAnimal("Cat", "meow")
+const dog = new Animal("Dog", "woof")
+const cat = new Animal("Cat", "meow")
 
 dog.say();  // Dog goes woof
 cat.say();  // Cat goes meow
 
-// =================== no name =====================
 // =================== no name =====================
 // =================== no name =====================
 // =================== no name =====================
