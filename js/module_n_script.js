@@ -3219,25 +3219,41 @@
 
 // =================== no name * !!! Function-constructor ==================
 
-function Animal(name, voice) {                  // функция-конструктор (возвращает другой объект)
-    // const result = Object.create(animal);    // !do not need to do this
-    this.name = name;
-    this.voice = voice;
-    // return result;                           // !do not need to do this
-}
-Animal.prototype.say = function () {
-    console.log(this.name, "goes", this.voice);
-}
+// function Animal(name, voice) {                  // функция-конструктор (возвращает другой объект)
+//     // const result = Object.create(animal);    // !do not need to do this
+//     this.name = name;
+//     this.voice = voice;
+//     // return result;                           // !do not need to do this
+// }
+// Animal.prototype.say = function () {
+//     console.log(this.name, "goes", this.voice);
+// }
 
-const dog = new Animal("Dog", "woof")
-const cat = new Animal("Cat", "meow")
+// const dog = new Animal("Dog", "woof")
+// const cat = new Animal("Cat", "meow")
 
-dog.say();  // Dog goes woof
-cat.say();  // Cat goes meow
+// dog.say();  // Dog goes woof
+// cat.say();  // Cat goes meow
+
+// =================== no name * !!!!! THREE METHODS of PROTOTYPING OBJECTS =================
+// ! 1. Object.setPrototypeOf(dog, animal);      // very slow method
+// ! 2. const dog = Object.create(animal);       // popular
+// ! 2. const dog = new Animal("Dog", "woof")    // polular using function-constructor
 
 // =================== no name =====================
-// =================== no name =====================
-// =================== no name =====================
+// ! Default prototypes of all objects
+
+// const obj1 = { name: "Bob", surname: "Smith" };
+
+// console.log(obj1.toString())        // [object Object]
+// console.log(obj1.valueOf())         // {name: "Bob", surname: "Smith"}
+// console.log(obj1.hasOwnProperty("name"))  // true
+// console.log(obj1.hasOwnProperty("password"))  // false
+
+// =================== no name !!! null prototype =====================
+// const obj = Object.create(null);    // creating object without prototype
+// console.log(obj.toString())         // TypeErros, cause in obj there is no prototype
+
 // =================== no name =====================
 // =================== no name =====================
 // =================== no name =====================
