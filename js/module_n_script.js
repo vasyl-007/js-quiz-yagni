@@ -3143,25 +3143,45 @@
 // console.log(res)        // {host: "localhost", dbName: "blog", user: "John", password: "Travolta", port: 8080, connect: f connect()}
 
 // =================== no name =====================
-const dog = {
-    name: "dog",
-    voice: "woof",
-    say: function () {
-        console.log(this.name, "goes", this.voice);
-    }
-};
+// const dog = {
+//     name: "dog",
+//     voice: "woof",
+//     say: function () {
+//         console.log(this.name, "goes", this.voice);
+//     }
+// };
 
-const cat = {
-    name: "cat",
-    voice: "meow",
-    say: function () {
-        console.log(this.name, "goes", this.voice);
-    }
-};
-
-
+// const cat = {
+//     name: "cat",
+//     voice: "meow",
+//     say: function () {
+//         console.log(this.name, "goes", this.voice);
+//     }
+// };
+// dog.say();  // dog goes woof
+// cat.say();  // cat goes meow
 
 // =================== no name =====================
+// const animal = {
+//     say: function () {
+//         console.log(this.name, "goes", this.voice);
+//     }
+// }
+// const dog = {
+//     name: "dog",
+//     voice: "woof",
+// };
+
+// const cat = {
+//     name: "cat",
+//     voice: "meow",
+// };
+// Object.setPrototypeOf(dog, animal)
+// Object.setPrototypeOf(cat, animal)
+
+// dog.say();  // dog goes woof
+// cat.say();  // cat goes meow
+
 // =================== no name =====================
 // =================== no name =====================
 // =================== no name =====================
