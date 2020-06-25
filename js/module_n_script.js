@@ -3254,8 +3254,76 @@
 // const obj = Object.create(null);    // creating object without prototype
 // console.log(obj.toString())         // TypeErros, cause in obj there is no prototype
 
+
+// =================== no name !!! * Classes ES6 (started into 2015)=====================
+//      Классы - это синтаксический сахар - ничего не добавляет в язык JavaScript,
+//      а просто более удобно выполняет задачи с прототипами объектов
+
+// function Animal(name, voice) {
+//     this.name = name;
+//     this.voice = voice;
+// }
+// Animal.prototype.say = function () {
+//     console.log(this.name, "goes", this.voice)
+// };
+// const dog = new Animal("dog", "woof");
+// dog.say();         // dog goes woof
+
+// =================== no name !!! * Classes ES6 (started into 2015)=====================
+//      Классы - это синтаксический сахар - ничего не добавляет в язык JavaScript,
+//      а просто более удобно выполняет задачи с прототипами объектов
+
+// class Animal {
+//     constructor(name, voice) {
+//         this.name = name;
+//         this.voice = voice;
+//     }
+//     say() {
+//         console.log(this.name, "goes", this.voice)
+//     }
+// }
+
+// // ! duck => Bird.prototype => Animal.prototype => Object.prototype => null
+
+// class Bird extends Animal {                 // ! if you have EXTENDS you must envoke super() before this
+//     constructor(name, voice, canFly) {
+//         super(name, voice);                 // ! if you have EXTENDS you must envoke super() before this
+//         this.canFly = canFly;
+//     }
+// }
+
+// const duck = new Bird("Duck", "quack", true);
+// duck.say();     // Duck goes quack
+// duck.say();     // Duck goes quack
+
 // =================== no name =====================
-// =================== no name =====================
+// class Animal {
+//     constructor(name, voice) {
+//         this.name = name;
+//         this.voice = voice;
+//     }
+//     say() {
+//         console.log(this.name, "goes", this.voice)
+//     }
+// }
+
+// // ! duck => Bird.prototype => Animal.prototype => Object.prototype => null
+
+// class Bird extends Animal {                 // ! if you have EXTENDS you must envoke super() before this
+//     constructor(name, voice, canFly) {
+//         super(name, voice);                 // ! if you have EXTENDS you must envoke super() before this
+//         super.say();                                // Duck goes quack
+//         this.say();                                 // Birds don't like to talk
+//         this.canFly = canFly;                       // Birds don't like to talk
+//     }
+//     say() {
+//         console.log("Birds don't like to talk")
+//     }
+// }
+
+// const duck = new Bird("Duck", "quack", true);
+// duck.say();       // Duck goes quack
+
 // =================== no name =====================
 // =================== no name =====================
 // =================== no name =====================
