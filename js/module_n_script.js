@@ -2780,7 +2780,7 @@
 
 // =================== no name =====================
 // function findProducts(opts = { minPrice: 10, maxPrice: 20 }) {
-//     console.log(opts)   
+//     console.log(opts)
 // }
 // findProducts();  // { minPrice: 10, maxPrice: 20 }
 // findProducts({});    // {}
@@ -2789,7 +2789,7 @@
 // max(1, 3)
 // function max() {
 //     var numbers = Array.prototype.slice.call(arguments);
-//     console.log(numbers)    // [1, 3]   
+//     console.log(numbers)    // [1, 3]
 // }
 
 // max2(1, 3, 4, 5, 6, 9)
@@ -2836,7 +2836,6 @@
 
 // const { firstName, lastName } = person;
 // console.log("firstName: ", firstName, "lastName: ", lastName) //firstName:  Peter lastName:  Smith
-
 
 // =================== no name  deep destructurizing ===============
 // const person = {
@@ -3254,7 +3253,6 @@
 // const obj = Object.create(null);    // creating object without prototype
 // console.log(obj.toString())         // TypeErros, cause in obj there is no prototype
 
-
 // =================== no name !!! * Classes ES6 (started into 2015)=====================
 //      Классы - это синтаксический сахар - ничего не добавляет в язык JavaScript,
 //      а просто более удобно выполняет задачи с прототипами объектов
@@ -3340,7 +3338,6 @@
 // counter.increment();                // 2
 // setTimeout(counter.increment, 1000) // 3
 
-
 // =================== no name =====================
 // class Counter {
 //     count = 0;
@@ -3384,7 +3381,30 @@
 // counter.increment();                // 2
 // setTimeout(counter.increment, 1000) // 4
 
-// =================== no name =====================
+// =================== no name !!! * Modules !!! =====================
+// import { add, substract, PI } from "./module_n_script2.js";
+// import { add as sum, substract, PI } from "./module_n_script2.js";
+
+// console.log(sum(2, 3));
+// console.log(PI);
+
+// import * as calc from "./module_n_script2.js";
+
+// console.log(calc.add(2, 3));
+
+// import Graph from "./module_n_script2.js";
+// console.log(typeof Graph);      // function
+
+// import G1, { add, substract } from "./module_n_script2.js";
+
+// console.log(typeof G1); // function
+// console.log(G1); // function
+
+// import G1, * as calc from "./module_n_script2.js";
+
+// console.log(typeof G1);         // function
+// console.log(calc.add(2, 3));    // 5
+
 // =================== no name =====================
 // =================== no name =====================
 // =================== no name =====================
