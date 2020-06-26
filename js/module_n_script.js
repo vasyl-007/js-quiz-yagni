@@ -3406,8 +3406,24 @@
 // console.log(calc.add(2, 3));    // 5
 
 // =================== no name =====================
+// ! code in this case will immideatly run
+// import "./module_n_script3.js"; // Module 3 like side effect
+
+// more examples:
+// import "./main.css";
+
 // =================== no name =====================
+// import joker from "one-liner-joke";
+// var oneLinerJoke = require("../index.js");
+
+// console.log(joker.getRandomJoke().body);
+// console.log(joker.getRandomJoke());
+
 // =================== no name =====================
+// import { getRandomJoke as _getRandomJoke } from "one-liner-joke";
+// var getRandomJoke = _getRandomJoke();
+// console.log(getRandomJoke);
+
 // =================== no name =====================
 // =================== no name =====================
 // =================== no name =====================
